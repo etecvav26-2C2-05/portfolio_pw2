@@ -6,7 +6,7 @@
     <title>calculadora</title>
 </head>
 <body>
-<form action="calculadora.php" method="POST">
+<form action="ex3.php" method="POST">
     <input type="number" name="n1">
     <input type="char" name="n3" placeholder="use +,-,/ ou *">
     <input type="number" name="n2">
