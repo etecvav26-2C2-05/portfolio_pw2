@@ -1,3 +1,14 @@
+<!--
+Data: 27/03/2026
+Autor: Nicoli Gabrielle Cunha, Ricardo Amaro Herzig, Suelen Almeida dos Santos Silva
+Objetivo: Criar um programa que leia 8 números inteiros e separe eles em 2 vetores, um negativo e um positivo.
+
+Exercício 7 - Separar Positivos e Negativos
+Leia 8 números inteiros e separe em dois vetores:
+
+Um vetor com números positivos
+Um vetor com números negativos
+-->
 
 <!DOCTYPE html>
 <html lang="en">
