@@ -1,3 +1,19 @@
+<!--
+Data: 20/03/2026
+Autor: Nicoli Gabrielle Cunha, Ricardo Amaro Herzig, Suelen Almeida dos Santos Silva
+Objetivo: Criar um programa que leia um número (n), e mostre em n linhas um triângulo numérico.
+
+Exercício 4 - Triângulo Numérico
+Leia um número n e imprima n linhas no seguinte formato (exemplo para n = 6):
+
+1
+1 2
+1 2 3
+1 2 3 4
+1 2 3 4 5
+1 2 3 4 5 6.
+-->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
