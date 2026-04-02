@@ -1,3 +1,13 @@
+<!--
+Data: 19/03/2026
+Autor: Nicoli Gabrielle Cunha, Ricardo Amaro Herzig, Suelen Almeida dos Santos Silva
+Objetivo: Criar um programa que funcione como uma calculadora artitmética
+
+Exercício 3 - Calculadora Aritmética
+Faça um programa que leia dois números e um operador ("+", "-", "*" ou "/").
+O programa deve mostrar o resultado da operação..
+-->
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
