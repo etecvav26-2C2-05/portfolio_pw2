@@ -1,3 +1,12 @@
+<!--
+Data: 20/03/2026
+Autor: Nicoli Gabrielle Cunha, Ricardo Amaro Herzig, Suelen Almeida dos Santos Silva
+Objetivo: Criar um programa que leia 5 números inteiros e mostre a soma dos fatoriais desses números
+
+Exercício 5 - Somatório de Fatoriais
+Leia 5 números inteiros e mostre a soma dos fatoriais desses números.
+-->
+
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
