@@ -1,3 +1,16 @@
+<!--
+Data: 28/03/2026
+Autor: Nicoli Gabrielle Cunha, Ricardo Amaro Herzig, Suelen Almeida dos Santos Silva
+Objetivo: Criar um programa que leia um número (n) e mostre os (n) primeiros termos da sequência fibonacci
+
+Exercício 6 - Série de Fibonacci
+Leia um número n e mostre os n primeiros termos da sequência de Fibonacci.
+
+Exemplo:
+n = 12
+Resultado:
+0 1 1 2 3 5 8 13 21 34 55 89.
+-->
 
 <!DOCTYPE html>
 <html lang="pt-BR">
