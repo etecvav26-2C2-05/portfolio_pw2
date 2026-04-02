@@ -23,6 +23,6 @@ echo "<h2>Negativos:</h2>";
 echo implode(", ", $negativos);
 
 echo "<br><br>";
-echo "<a href='index.php' style='padding: 10px 20px; background-color: #4CAF50; color: white; text-decoration: none; border-radius: 5px;'>← Voltar</a>";
+echo "<a href='index.php'>← Voltar</a>";
 
 ?>
