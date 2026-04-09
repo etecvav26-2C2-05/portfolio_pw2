@@ -279,6 +279,10 @@ Explique como cookies e sessions poderiam ser utilizados para:
 
 Justifique suas escolhas.
 
+- Resposta:
+  Em uma loja virtual, as **sessions** são usadas para manter o usuário logado e armazenar itens temporários no carrinho, pois os dados ficam no servidor e são mais seguros. Já os **cookies** podem ser utilizados para lembrar o login (com um token seguro) e registrar preferências do usuário, como idioma ou tema, pois são dados simples e podem permanecer no navegador mesmo após o usuário sair do site.
+
+
 ---
 
 ## Exercício 3 — Pergunta de investigação
