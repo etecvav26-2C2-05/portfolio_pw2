@@ -315,15 +315,7 @@ Descreva:
 - o que aconteceu em cada etapa
 - por que o cookie não aparece imediatamente na primeira execução.
 
-- resposta: Quando você executa o arquivo pela primeira vez no navegador, o PHP envia o cookie, mas ele ainda não existe dentro do `$_COOKIE`. Por isso, aparece a mensagem **“Cookie ainda não disponível.”** — é como se o navegador tivesse acabado de receber o cookie, mas ainda não teve chance de “devolver” ele para o servidor.
-
-Ao **atualizar a página**, aí sim o navegador envia o cookie de volta. Nesse momento, o PHP consegue ler o valor e exibe **“Valor do cookie: 1”**.
-
-Quando você abre as **ferramentas do navegador**, consegue ver que o cookie realmente foi salvo no seu navegador, com o nome `contador`.
-
-Se você **apagar os cookies e atualizar a página novamente**, tudo volta ao início: o cookie é criado outra vez, mas ainda não está disponível imediatamente, então aparece de novo a mensagem de que ele não está disponível.
-
-Isso acontece porque o cookie funciona em duas etapas: primeiro o servidor envia, depois o navegador guarda e só na próxima requisição ele devolve para o servidor.
+- resposta: Quando você executa o arquivo pela primeira vez no navegador, o PHP envia o cookie, mas ele ainda não existe dentro do `$_COOKIE`. Por isso, aparece a mensagem **“Cookie ainda não disponível.”** — é como se o navegador tivesse acabado de receber o cookie, mas ainda não teve chance de “devolver” ele para o servidor. Ao **atualizar a página**, aí sim o navegador envia o cookie de volta. Nesse momento, o PHP consegue ler o valor e exibe **“Valor do cookie: 1”**. Quando você abre as **ferramentas do navegador**, consegue ver que o cookie realmente foi salvo no seu navegador, com o nome `contador`. Se você **apagar os cookies e atualizar a página novamente**, tudo volta ao início: o cookie é criado outra vez, mas ainda não está disponível imediatamente, então aparece de novo a mensagem de que ele não está disponível. Isso acontece porque o cookie funciona em duas etapas: primeiro o servidor envia, depois o navegador guarda e só na próxima requisição ele devolve para o servidor.
 
 ---
 
