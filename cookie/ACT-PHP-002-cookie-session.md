@@ -261,6 +261,10 @@ Em sua resposta, considere:
 - quais são mais seguros
 - em quais situações cada um pode ser mais adequado.
 
+- Resposta:
+  Cookies e sessions no PHP diferem principalmente pelo local de armazenamento e nível de segurança. Cookies são armazenados no navegador do usuário, sendo enviados ao servidor a cada requisição; por isso, são menos seguros e mais indicados para guardar preferências simples, como idioma ou tema. Já as sessions armazenam os dados no servidor, mantendo no cliente apenas um identificador da sessão, o que as torna mais seguras e adequadas para informações sensíveis, como autenticação de usuários e dados importantes temporários.
+
+
 ---
 
 ## Exercício 2 — Pergunta de aplicação
