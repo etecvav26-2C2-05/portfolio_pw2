@@ -327,6 +327,9 @@ Discuta:
 - manipulação de dados
 - possíveis riscos ao utilizar apenas cookies.
 
+- resposta:
+  As **sessions** são preferidas para autenticação porque oferecem mais **segurança**, já que os dados ficam armazenados no servidor e não podem ser facilmente acessados ou modificados pelo usuário. Elas também facilitam a **manipulação de dados**, pois o servidor controla diretamente as informações da sessão. Já o uso apenas de **cookies** é mais arriscado, pois eles ficam no navegador e podem ser interceptados, alterados ou roubados, comprometendo a autenticação do usuário.
+
 ---
 
 # 5. Instruções para os alunos
